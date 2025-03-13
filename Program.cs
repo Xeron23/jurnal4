@@ -14,5 +14,20 @@ class Program
 
         Console.WriteLine(produk.getKodeProduk("Headset"));
         Console.WriteLine(produk.getKodeProduk("Smartwatch"));
+
+        FanLaptop mode = new FanLaptop();
+
+        mode.modeUp();
+        mode.modeUp();
+        mode.modeUp();
+        mode.modeUp();
+        mode.offTurboShorcut();
+
+        mode.onTurboShorcut();
+        mode.modeDown();
+        mode.modeDown();
+        mode.modeDown();
+        mode.modeDown();
+        mode.onTurboShorcut();
     }
 }
